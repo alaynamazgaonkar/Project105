@@ -23,7 +23,7 @@ for i in newData:
 
 sum=1
 for i in filedata:
-    sum=sum*int(i)
+    sum=sum+int(i)
 
 deviation=int(sum/length)
 
